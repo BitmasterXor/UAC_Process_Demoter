@@ -1,6 +1,6 @@
 <h1>Process Demoter</h1>
 
-<p>This Delphi VCL application provides a sophisticated solution for executing applications at a lower UAC level through the use of user tokens. Users can conveniently select an `.exe` file and run it with reduced privileges, enhancing overall system performance by deprioritizing resource-intensive applications. This capability of executing programs with lower privileges is also beneficial across various fields of IT, facilitating secure and efficient resource management in diverse operational environments.</p>
+<p>This project illustrates executing applications as non-UAC from a running UAC elevated process.</p>
 
 
 <!-- Replace 'Preview.png' with the path to your actual image file -->
