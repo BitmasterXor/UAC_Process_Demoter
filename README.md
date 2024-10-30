@@ -18,11 +18,13 @@
 
 <h2>Installation</h2>
 <ol>
-  <li><strong>Requirements:</strong> You must have Delphi installed, along with CNPack and Style Controls for compiling the project source.</li>
+  <li><strong>Requirements:</strong> You must have Delphi installed, along with <a href="http://www.cnpack.org/" target="_blank">CNPack</a> and <a href="https://www.almdev.com/prods/stylecontrols/stylecontrols.html" target="_blank">Style Controls</a> to compile the project.</li>
   <li><strong>Open Delphi Project:</strong> Open the `.dpr` file in the Delphi IDE.</li>
   <li><strong>Compile:</strong> Build the project to generate the executable.</li>
   <li><strong>Run:</strong> Execute the application to start using "Process Demoter."</li>
 </ol>
+
+
 
 <h2>Usage</h2>
 <ol>
