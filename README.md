@@ -1,6 +1,6 @@
 <h1>Process Demoter</h1>
 
-<p>This Delphi VCL application demonstrates how to create a simple tool to demote the priority of a process in Windows. This tool allows users to reduce the priority of selected processes, which can help to improve overall system performance by deprioritizing resource-heavy applications.</p>
+<p>This Delphi VCL application demonstrates how to create a simple tool to execute applications at a lower UAC level using user tokens. This tool allows users to select an `.exe` file and run it with reduced privileges, which can help improve overall system performance by deprioritizing resource-heavy applications.</p>
 
 <!-- Replace 'Preview.png' with the path to your actual image file -->
 <p align="center">
@@ -9,10 +9,10 @@
 
 <h2>Features</h2>
 <ul>
-  <li><strong>Process Listing:</strong> Lists all currently running processes with detailed information.</li>
-  <li><strong>Process Priority Control:</strong> Easily change the priority of selected processes (e.g., High, Normal, Low).</li>
-  <li><strong>Real-Time Refresh:</strong> Automatically updates the list of processes at regular intervals.</li>
-  <li><strong>User-Friendly Interface:</strong> Intuitive design with controls for selecting and modifying process priorities.</li>
+  <li><strong>Executable Selection:</strong> Choose any `.exe` file to run at a lower UAC level.</li>
+  <li><strong>User Token Utilization:</strong> Execute applications using user tokens to bypass UAC restrictions.</li>
+  <li><strong>Real-Time Status:</strong> Get feedback on the execution status of the selected application.</li>
+  <li><strong>User-Friendly Interface:</strong> Intuitive design with controls for selecting executables and managing execution.</li>
 </ul>
 
 <h2>Installation</h2>
@@ -25,9 +25,9 @@
 
 <h2>Usage</h2>
 <ol>
-  <li><strong>Run the Application:</strong> Open the executable to view the process list.</li>
-  <li><strong>Select a Process:</strong> Choose a process from the list whose priority you want to change.</li>
-  <li><strong>Set Priority:</strong> Use the provided dropdown to change the process priority to Low, Below Normal, Normal, Above Normal, High, or Realtime.</li>
+  <li><strong>Select an Executable:</strong> Browse and select the `.exe` file you wish to run.</li>
+  <li><strong>Run at Lower UAC Level:</strong> Use the provided controls to execute the selected application with reduced privileges.</li>
+  <li><strong>Monitor Execution:</strong> Check the status and feedback provided by the application during execution.</li>
 </ol>
 
 <h2>Contributing</h2>
